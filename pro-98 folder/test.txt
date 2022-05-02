@@ -1,0 +1,9 @@
+f = open("test.txt")
+f.read()
+'this is a test file. this is a simple test .\n'
+
+f = open("test.txt")
+fileLines = f.readlines()
+for line in fileLines:
+    print(line) 
+
